@@ -107,7 +107,7 @@ This project was built to practice and demonstrate:
 
 ## 👤 Author
 
-**Maosama** - Full-Stack / Backend Developer 🚀
+**Hardik** - Full-Stack / Backend Developer 🚀
 
 ---
 
