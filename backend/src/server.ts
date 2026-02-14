@@ -30,5 +30,5 @@ app.post("/logout", logOut);
 app.put("/todos", authMiddleware, updateTodo);
 app.get("/auth/check", authCheck);
 app.listen(8000, () => {
-  console.log("wallah habibi");
+  console.log("server running");
 });

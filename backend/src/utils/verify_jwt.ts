@@ -6,10 +6,10 @@ interface MyJwtPayload extends JwtPayload {
 }
 
 export const verify = (token: string) => {
-  return jwt.verify(token, "wallah") as MyJwtPayload;
+  return jwt.verify(token, "secret_key") as MyJwtPayload;
 };
 export const createToken = (userid: string) => {
-  return jwt.sign({ id: userid }, "wallah", {
+  return jwt.sign({ id: userid }, "secret_key", {
     expiresIn: "1h",
   });
 };
